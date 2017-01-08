@@ -1,0 +1,180 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by
+     Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code
+     on https://github.com/jonrohan -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+
+    <script type="text/javascript"
+	    src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+    </script>
+    <script type="text/javascript" src="javascripts/script.js"></script>
+
+    <title>librecore</title>
+    <meta name="description" content="">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+
+  <body>
+
+    <div class="wrapper">
+      <header>
+	<h1 class="title">librecore</h1>
+      </header>
+      <div id="container">
+	<p class="tagline"></p>
+	<div id="main" role="main">
+	  <div class="download-bar">
+	    <div class="inner">
+	      <a href="https://github.com/librecore-org/librecore-website/tarball/master"
+		 class="download-button tar">
+		<span>Download</span>
+	      </a>
+
+	      <a href="https://github.com/librecore-org/librecore-website/zipball/master"
+		 class="download-button zip">
+		<span>Download</span>
+	      </a>
+	      <a href="https://github.com/librecore-org/librecore-website"
+		 class="code">View librecore on GitHub</a>
+	    </div>
+	    <span class="blc"></span><span class="trc"></span>
+	  </div>
+	  <article class="markdown-body">
+
+	    <h3>
+	      <a id="differences-with-coreboot" class="anchor"
+		 href="#differences-with-coreboot" aria-hidden="true">
+		<span aria-hidden="true" class="octicon octicon-link"></span>
+	      </a>
+	      Differences with coreboot
+	    </h3>
+
+	    <p>
+	      While Librecore shares much of its source code with coreboot, and
+	      also collaborates with coreboot, and even sends patches to
+	      coreboot, there are also some differences between the two
+	      projects.
+	    </p>
+
+	    <p>
+	      While the differences are subject to the evolution of both
+	      projects and their members, so far we identified some below.
+	    </p>
+
+	    <h4>
+	      <a id="freedom" class="anchor"
+		 href="#freedom" aria-hidden="true">
+		<span aria-hidden="true" class="octicon octicon-link"></span>
+	      </a>
+	      Freedom
+	    </h4>
+
+	    <p>
+	      To support some devices, coreboot uses Huge silicon manufacturer
+	      provided blobs like AMD's PI and Intel's FSP.<br>
+	      Such blobs are responsible for enabling most of the hardware,
+	      which is what coreboot is supposed to do in the first place. This
+	      relegates coreboot to a wrapper of such blobs, leaving it very few
+	      things left to do.
+	    </p>
+
+	    <p>
+	      Because of that Librecore chose not to use such blobs. As a result
+	      of that, the hardware requiring such blobs is supported by
+	      coreboot but not librecore.
+	    </p>
+
+	    <p>
+	      When such blobs are optional, not having the option to use them is
+	      less confusing for users and/or developers.
+	    </p>
+
+	    <h4>
+	      <a id="maintanability" class="anchor"
+		 href="#maintanability" aria-hidden="true">
+		<span aria-hidden="true" class="octicon octicon-link"></span>
+	      </a>
+	      Maintanability
+	    </h4>
+
+	    <p>
+	      Coreboot uses Silicon manufacturer provided free software source
+	      code (Like AMD's AGESA) that don't follow the same design or code
+	      practices than the community is used to:<br>
+	      Such source code often contains a layer to abstract the OS or,
+	      here the boot firmware project it's used with. This is a well
+	      known issue<a id="ref-ptr-1" class="anchor" href="#ref-1">[1]</a>
+	      in free software projects that interact with hardware. While such
+	      code is really valuable as it provides a good working reference,
+	      but it has huge maintainability issues.<br>
+	      The Linux kenrel also has to deal with this issue, and because of
+	      the maintability issues, decided not to use that kind of code
+	      as-is.
+	    </p>
+
+	    <h4>
+	      <a id="references" class="anchor"
+		 href="#references" aria-hidden="true">
+		<span aria-hidden="true" class="octicon octicon-link"></span>
+	      </a>
+	      References
+	    </h4>
+	    <ul>
+	      <li>
+		<a id="ref-1" class="anchor" href="#ref-ptr-1">[1]</a>
+		A sumarry of the last incarnation of this issue in the Linux
+		kernel, at the time of writing can found at lwn.net:
+		https://lwn.net/Articles/708891/<br>
+	      </li>
+	    </ul>
+
+	    <footer>
+	      <div class="owner">
+		<p>
+		  <a href="https://github.com/librecore-org" class="avatar">
+		    <img width="48" height="48"
+			 src="https://avatars1.githubusercontent.com/u/23515146?v=3&amp;s=60">
+		  </a>
+		  <a href="https://github.com/librecore-org"> librecore-org</a>
+		  maintains
+		  <a href="https://github.com/librecore-org/librecore-website">
+		    librecore </a>
+		</p>
+
+	      </div>
+	      <div class="creds">
+		<small>This page generated using
+		  <a href="https://pages.github.com/">GitHub Pages</a><br>
+		  theme by
+		  <a
+		    href="https://twitter.com/jonrohan/">
+		    Jon Rohan
+		  </a><br>
+		  This website and its contents are under the CC0 license,
+		  unless where otherwise stated.
+		</small>
+	      </div>
+	    </footer>
+	</div>
+	<div class="current-section">
+	  <a href="#top">Scroll to top</a>
+	  <a href="https://github.com/librecore-org/librecore-website/tarball/master"
+	     class="tar">tar</a>
+	  <a
+	    href="https://github.com/librecore-org/librecore-website/zipball/master"
+	    class="zip">
+	    zip
+	  </a>
+	  <a href="" class="code">source code</a>
+	  <p class="name"></p>
+	</div>
+  </body>
+</html>
