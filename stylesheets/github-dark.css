@@ -3,15 +3,19 @@ The MIT License (MIT)
 
 Copyright (c) 2016 GitHub, Inc.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Разрешение "бесплатно" предоставляется любому лицу, 
+получившему копию этого программного обеспечения и связанных файлов 
+документации («Программное обеспечение»), чтобы разрешить 
+Программное обеспечение без ограничений, включая; 
+без ограничений, права использовать, копировать, изменять, объединять, 
+публиковать, распространять, сублицензировать и / или продавать копии 
+Программного обеспечения и разрешать лицам, которым 
+Программное обеспечение является предоставленным для этого, 
+при соблюдении следующих условий:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Вышеупомянутое уведомление об авторских правах и это уведомление 
+о разрешении должны быть включены во все 17 копии или существенные части 
+Программного обеспечения.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -23,17 +27,18 @@ SOFTWARE.
 
 */
 
-.pl-c /* comment */ {
+.pl-c /* коммент */ {
   color: #969896;
 }
 
-.pl-c1 /* constant, variable.other.constant, support, meta.property-name, support.constant, support.variable, meta.module-reference, markup.raw, meta.diff.header */,
-.pl-s .pl-v /* string variable */ {
+.pl-c1 /* constant, variable.other.constant, support, meta.property-name, support.constant, support.variable, 
+meta.module-reference, markup.raw, meta.diff.header */,
+.pl-s .pl-v /* строковая переменная */ {
   color: #0099cd;
 }
 
-.pl-e /* entity */,
-.pl-en /* entity.name */ {
+.pl-e /* объект */,
+.pl-en /* объект.имя */ {
   color: #9774cb;
 }
 
