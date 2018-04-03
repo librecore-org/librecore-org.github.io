@@ -1,9 +1,9 @@
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 
 /**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
+ * 1. Установить семейство шрифтов по умолчанию в sans-serif.
+ * 2. Запретить изменение размера текста в iOS после изменения ориентации, 
+ * без отключения zoom пользователя .
  */
 
 html {
@@ -13,20 +13,20 @@ html {
 }
 
 /**
- * Remove default margin.
+ * Удалить значение по умолчанию.
  */
 
 body {
   margin: 0;
 }
 
-/* HTML5 display definitions
+/* Определения для HTML5
    ========================================================================== */
 
 /**
- * Correct `block` display not defined for any HTML5 element in IE 8/9.
- * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
- * Correct `block` display not defined for `main` in IE 11.
+ * корректный `block` отображение определено не для любого элемента HTML5 в IE 8/9.
+ * корректный `block` отображение не определено для `details` или` summary` в IE 10/11 и Firefox.
+ * корректный `block` дисплей не определен для `main` в IE 11
  */
 
 article,
@@ -40,13 +40,11 @@ hgroup,
 main,
 nav,
 section,
-summary {
-  display: block;
-}
+summary {display: block;}
 
 /**
- * 1. Correct `inline-block` display not defined in IE 8/9.
- * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ * 1. Корректный дисплей inline-block, не определён для IE 8/9.
+ * 2. Нормализовать вертикальное выравнивание «прогресса» в Chrome, Firefox и Opera.
  */
 
 audio,
@@ -58,8 +56,8 @@ video {
 }
 
 /**
- * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
+ * Предотвращение отображения современными браузерами `audio` без элементов управления.
+ * Удалите лишнюю высоту в устройствах iOS 
  */
 
 audio:not([controls]) {
@@ -68,28 +66,24 @@ audio:not([controls]) {
 }
 
 /**
- * Address `[hidden]` styling not present in IE 8/9/10.
- * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ * Адрес `[скрытый]` стиль не присутствует в IE 8/9/10.
+ * Скрыть элемент `template` в IE 8/9/11, Safari и Firefox <22.
  */
 
 [hidden],
-template {
-  display: none;
-}
+template {display: none;}
 
 /* Links
    ========================================================================== */
 
 /**
- * Remove the gray background color from active links in IE 10.
+ * Удалить серый цвет фона из активных ссылок в IE 10.
  */
 
-a {
-  background: transparent;
-}
+a {background: transparent;}
 
 /**
- * Improve readability when focused and also mouse hovered in all browsers.
+ * Улучшение удобочитаемости при фокусировке, а также зависание мыши во всех браузерах.
  */
 
 a:active,
@@ -97,7 +91,7 @@ a:hover {
   outline: 0;
 }
 
-/* Text-level semantics
+/* Текстовая семантика
    ========================================================================== */
 
 /**
