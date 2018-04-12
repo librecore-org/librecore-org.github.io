@@ -565,7 +565,7 @@ p.tagline {
   border: 5px solid #444;
   opacity: 0;
   visibility: hidden; 
-  text-align: left;
+  text-align: center; 
   align-items: center; 
   align-content: center;
   justify-content: space-around;
