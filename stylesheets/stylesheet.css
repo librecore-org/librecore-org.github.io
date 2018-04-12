@@ -450,7 +450,7 @@ h1.title {
 }
 
 .wrapper {
-  width: 80vw;
+  width: 60vw;
   margin: 0 auto;
 }
 
@@ -468,7 +468,7 @@ p.tagline {
 
 #main {
   margin-top: 20px;
-  padding: 0 20px 90px;
+  padding: 0 20px 80px;
   background-color: #fff;
 }
 
@@ -559,8 +559,8 @@ p.tagline {
 .current-section {
   position: fixed;
   top: 0;
-  left: 50%;
-  width: 80vw;
+  left: 30%;
+  width: 60vw;
   margin-left: -20vw;
   background: #222;
   border: 5px solid #444;
