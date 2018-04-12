@@ -557,16 +557,16 @@ p.tagline {
 }
 
 .current-section { /*left: 10%; margin-left: 10vw; */margin: 2px auto;
-  display:inline-flex;
-  position: fixed;
-  top: 0;
+  display:flex;
+  position: fixed; 
+  align-items: center; 
   width: 80vw;
   background: #222;
   border: 5px solid #444;
   color: #fff;
   opacity: 0;
   visibility: hidden; 
-	align-items: center; 
+	
   justify-content: space-between;
   transition: opacity ease-in-out 0.3s;
   -webkit-transition: opacity ease-in-out 0.3s;  /* Safari <=6.1, Android <= 4.3 */
