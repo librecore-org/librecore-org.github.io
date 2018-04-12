@@ -676,12 +676,12 @@ a.download-button span {
   color: #fff;
 }
 
-footer {display: flex; 
+footer {display: inline-flex; 
   margin-bottom: 60px;
   padding-bottom: 60px;
 }
 
-footer .owner {
+footer .owner {display: flex; 
   background: #222;
   border: 5px solid #444;
   padding: 5px 15px;
