@@ -677,12 +677,12 @@ a.download-button span {
   color: #fff;
 }
 
-footer {display: flex; 
+footer {
   margin-bottom: 60px;
   padding-bottom: 60px;
 }
 
-footer .owner {display: inline-flex; 
+footer .owner {
   background: #222;
   border: 5px solid #444;
   padding: 5px 15px;
@@ -690,14 +690,14 @@ footer .owner {display: inline-flex;
   color: #d6d6d6;
 }
 
-footer .creds small {display: inline-flex; 
+footer .creds small {
   float: right;
   font-size: 10px;
   text-align: right;
   margin-left: 15px;
 }
 
-footer .owner .avatar {inline-flex; 
+footer .owner .avatar {
   background-color: #666;
   display: block;
   margin: -19px 10px 0 0;
