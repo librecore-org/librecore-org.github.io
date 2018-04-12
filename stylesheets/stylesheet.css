@@ -690,14 +690,14 @@ footer .owner {display: inline-flex;
   color: #d6d6d6;
 }
 
-footer .creds small {display: flex; 
+footer .creds small {display: inline-flex; 
   float: right;
   font-size: 10px;
   text-align: right;
   margin-left: 15px;
 }
 
-footer .owner .avatar {
+footer .owner .avatar {inline-flex; 
   background-color: #666;
   display: block;
   margin: -19px 10px 0 0;
