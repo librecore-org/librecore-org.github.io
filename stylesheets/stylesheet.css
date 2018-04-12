@@ -560,7 +560,7 @@ p.tagline {
   position: fixed;
   top: 0;
   left: 50%;
-  width: 693px;
+  width: 80vw;
   margin-left: -352px;
   background: #222;
   border: 5px solid #444;
@@ -826,7 +826,7 @@ footer .owner p a {
 }
 
 .markdown-body table {
-  width: 673px;
+  width: 90vw;
   margin-left: -20px;
   margin-right: -20px;
 }
