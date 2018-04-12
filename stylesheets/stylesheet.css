@@ -95,7 +95,7 @@ a:hover {
    ========================================================================== */
 
 /**
- * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ * Стиль адреса не присутствует в IE 8/9/10/11, Safari и Chrome.
  */
 
 abbr[title] {
@@ -103,7 +103,7 @@ abbr[title] {
 }
 
 /**
- * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ * Стиль адреса установлен на «жирный» в Firefox 4+, Safari и Chrome.
  */
 
 b,
@@ -112,7 +112,7 @@ strong {
 }
 
 /**
- * Address styling not present in Safari and Chrome.
+ * Стиль адреса не присутствует в Safari и Chrome.
  */
 
 dfn {
@@ -120,8 +120,8 @@ dfn {
 }
 
 /**
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari, and Chrome.
+ * Укажите размер шрифта `h1` переменной и поля в разделе `section` и `article`
+ * контекста в Firefox 4+, Safari и Chrome.
  */
 
 h1 {
@@ -130,7 +130,7 @@ h1 {
 }
 
 /**
- * Address styling not present in IE 8/9.
+ * Стиль адреса не присутствует в IE 8/9.
  */
 
 mark {
@@ -139,7 +139,7 @@ mark {
 }
 
 /**
- * Address inconsistent and variable font size in all browsers.
+ * Неверный и изменяемый размер шрифта во всех браузерах.
  */
 
 small {
@@ -147,7 +147,7 @@ small {
 }
 
 /**
- * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ * Предотвратите `sub` и` sup`, влияющие на `line-height` во всех браузерах.
  */
 
 sub,
@@ -166,11 +166,11 @@ sub {
   bottom: -0.25em;
 }
 
-/* Embedded content
+/* Встроенный контент
    ========================================================================== */
 
 /**
- * Remove border when inside `a` element in IE 8/9/10.
+ * Удалите границы внутри элемента `a` в IE 8/9/10.
  */
 
 img {
@@ -178,18 +178,18 @@ img {
 }
 
 /**
- * Correct overflow not hidden in IE 9/10/11.
+ * Правильное переполнение не скрыто в IE 9/10/11.
  */
 
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* Grouping content
+/* Группировка контента
    ========================================================================== */
 
 /**
- * Address margin not present in IE 8/9 and Safari.
+ * Адреса не присутствуют в IE 8/9 и Safari.
  */
 
 figure {
@@ -197,7 +197,7 @@ figure {
 }
 
 /**
- * Address differences between Firefox and other browsers.
+ * Различия в адресах между Firefox и другими браузерами.
  */
 
 hr {
@@ -207,7 +207,7 @@ hr {
 }
 
 /**
- * Contain overflow in all browsers.
+ * Содержать переполнение во всех браузерах.
  */
 
 pre {
@@ -215,7 +215,7 @@ pre {
 }
 
 /**
- * Address odd `em`-unit font size rendering in all browsers.
+ * Выражайте нечетный размер шрифта шрифта `em` во всех браузерах.
  */
 
 code,
@@ -230,15 +230,15 @@ samp {
    ========================================================================== */
 
 /**
- * Known limitation: by default, Chrome and Safari on OS X allow very limited
- * styling of `select`, unless a `border` property is set.
+ * Известное ограничение: по умолчанию Chrome и Safari на OS X позволяют очень ограничить 
+ * стиль `select`, если не установлено свойство `border`.
  */
 
 /**
- * 1. Correct color not being inherited.
- *    Known issue: affects color of disabled elements.
- * 2. Correct font properties not being inherited.
- * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ * 1. Правильный цвет не наследуется.
+ *    Известная проблема: влияет на цвет отключенных элементов.
+ * 2. Правильные свойства шрифта не наследуются.
+ * 3. Адреса полей устанавливаются по-разному в Firefox 4+, Safari и Chrome.
  */
 
 button,
@@ -252,7 +252,7 @@ textarea {
 }
 
 /**
- * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ * Адрес `overflow` установлен в` hidden` в IE 8/9/10/11.
  */
 
 button {
@@ -260,10 +260,10 @@ button {
 }
 
 /**
- * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
- * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
- * Correct `select` style inheritance in Firefox.
+ * Введите непоследовательное наследование `text-transform` для` button` и `select`.
+ * Все остальные элементы управления формой не наследуют значения «text-transform».
+ * Исправьте наследование стиля `button` в Firefox, IE 8/9/10/11 и Opera.
+ * Исправьте наследование стиля `select` в Firefox.
  */
 
 button,
@@ -272,11 +272,11 @@ select {
 }
 
 /**
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
- * 2. Correct inability to style clickable `input` types in iOS.
- * 3. Improve usability and consistency of cursor style between image-type
- *    `input` and others.
+ * 1. Избегайте ошибки WebKit в Android 4.0. * Где (2) уничтожает собственный `audio`
+ *    и `video`.
+ * 2. Правильная неспособность стилировать типы ввода `input` в iOS.
+ * 3. Улучшить удобство и последовательность стиля курсора между типом изображения 
+ * `input` и другим.
  */
 
 button,
@@ -288,7 +288,7 @@ input[type="submit"] {
 }
 
 /**
- * Re-set default cursor for disabled elements.
+ * Переустановить курсор по умолчанию для отключенных элементов.
  */
 
 button[disabled],
@@ -297,7 +297,7 @@ html input[disabled] {
 }
 
 /**
- * Remove inner padding and border in Firefox 4+.
+ * Удалите внутреннюю прокладку и границу в Firefox 4+.
  */
 
 button::-moz-focus-inner,
@@ -307,8 +307,8 @@ input::-moz-focus-inner {
 }
 
 /**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
+ * Адрес Firefox 4+, устанавливающий `line-height` на` input`, используя `! Important` в 
+ * таблице стилей UA.
  */
 
 input {
@@ -316,11 +316,11 @@ input {
 }
 
 /**
- * It's recommended that you don't attempt to style these elements.
- * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ * Рекомендуется не пытаться стилизовать эти элементы.
+ * Внедрение Firefox не учитывает размер, прописку или ширину коробки.
  *
- * 1. Address box sizing set to `content-box` in IE 8/9/10.
- * 2. Remove excess padding in IE 8/9/10.
+ * 1. Размер поля адреса установлен в `content-box` в IE 8/9/10.
+ * 2. Удалите избыточное дополнение в IE 8/9/10.
  */
 
 input[type="checkbox"],
@@ -330,9 +330,9 @@ input[type="radio"] {
 }
 
 /**
- * Fix the cursor style for Chrome's increment/decrement buttons. For certain
- * `font-size` values of the `input`, it causes the cursor style of the
- * decrement button to change from `default` to `text`.
+ * Исправление стиля курсора для кнопок увеличения/уменьшения Chrome. Для некоторых 
+ * `font-size` значения` input` вызывает стиль курсора 
+ * декремент, чтобы перейти от `default` к `text`.
  */
 
 input[type="number"]::-webkit-inner-spin-button,
@@ -341,9 +341,9 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 /**
- * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
- *    (include `-moz` to future-proof).
+ * 1. Адрес `внешний вид` установлен в `searchfield` в Safari и Chrome.
+ * 2. Адрес `box-sizing` установлен в` border-box` в Safari и Chrome 346 
+ * (включить `-moz` в будущее-доказательство).
  */
 
 input[type="search"] {
@@ -354,9 +354,9 @@ input[type="search"] {
 }
 
 /**
- * Remove inner padding and search cancel button in Safari and Chrome on OS X.
- * Safari (but not Chrome) clips the cancel button when the search input has
- * padding (and `textfield` appearance).
+ * Удалить внутреннюю подачу и кнопку отмены поиска в Safari и Chrome на OS X.
+ * Safari (но не Chrome) зажимает кнопку отмены, когда вход поиска  
+ * padding (и внешний вид текстового поля).
  */
 
 input[type="search"]::-webkit-search-cancel-button,
@@ -365,7 +365,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 /**
- * Define consistent border, margin, and padding.
+ * Определить согласованную границу, маржу и отступы.
  */
 
 fieldset {
@@ -375,8 +375,8 @@ fieldset {
 }
 
 /**
- * 1. Correct `color` not being inherited in IE 8/9/10/11.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ * 1. Правильный `color` не наследуется в IE 8/9/10/11.
+ * 2. Удалить прокладку, чтобы люди не были пойманы, если они обнулили полями.
  */
 
 legend {
@@ -393,7 +393,7 @@ textarea {
 }
 
 /**
- * Не наследуйте «font-weight» (применяется по правилу выше).
+ * Не наследовать «font-weight» (применяется по правилу выше).
  * ПРИМЕЧАНИЕ:
  * По умолчанию в Chrome и Safari в OS X не может быть безопасно изменено значение по умолчанию.
  */
@@ -402,7 +402,7 @@ optgroup {
   font-weight: bold;
 }
 
-/* Tables
+/* таблицы
    ========================================================================== */
 
 /**
