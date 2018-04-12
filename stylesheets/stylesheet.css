@@ -556,12 +556,11 @@ p.tagline {
   filter:alpha(opacity=100);  /* IE 5-7 */
 }
 
-.current-section {display:flex;
+.current-section { /*left: 10%; margin-left: 10vw; */
+  display:flex;
   position: fixed;
   top: 0;
-  left: 10%;
-  width: 60vw;
-  margin-left: 10vw;
+  width: 80vw;
   background: #222;
   border: 5px solid #444;
   color: #fff;
