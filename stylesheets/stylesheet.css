@@ -561,7 +561,7 @@ p.tagline {
   top: 0;
   left: 10%;
   width: 60vw;
-  margin-left: -10vw;
+  margin-left: 10vw;
   background: #222;
   border: 5px solid #444;
   color: #fff;
