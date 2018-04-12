@@ -436,10 +436,7 @@ a {
   -webkit-transition: opacity ease-in-out 0.3s;  /* Safari <=6.1, Android <= 4.3 */
 }
 
-a:hover {
-  text-decoration: underline;
-  color: #90D355;
-}
+a:hover {color: #90D355; text-decoration: underline;}
 
 h1.title {
   margin: 30px 20px 10px;
@@ -450,15 +447,12 @@ h1.title {
   text-align: center;
 }
 
-.wrapper {
-  width: 80vw;
-  margin: 0 auto;
-}
+.wrapper {width: 80vw; margin: 0 auto;}
 
 #container {
   border: 1px solid #2a2a2a;
-  background: #ddd url(../images/pattern.png);
   box-shadow: 0 0 5px #b1b1b1;
+  background: #ddd url(../images/pattern.png);
 }
 
 p.tagline {
@@ -558,7 +552,7 @@ p.tagline {
 }
 
 .current-section { /*left: 10%; margin-left: 10vw; space-between; margin: 2px auto;*/
-  display: flex; 
+  display: inline-flex; 
   color: #fff;
   position: fixed; 
   width: 80vw;
