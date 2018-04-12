@@ -556,7 +556,7 @@ p.tagline {
   filter:alpha(opacity=100);  /* IE 5-7 */
 }
 
-.current-section { /*left: 10%; margin-left: 10vw; */
+.current-section { /*left: 10%; */ margin-left: 10vw;
   display:flex;
   position: fixed;
   top: 0;
