@@ -559,7 +559,7 @@ p.tagline {
 .current-section {
   position: fixed;
   top: 0;
-  left: 20%;
+  left: 60%;
   width: 60vw;
   margin-left: -60vw;
   background: #222;
