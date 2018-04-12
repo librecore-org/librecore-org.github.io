@@ -450,7 +450,7 @@ h1.title {
 }
 
 .wrapper {
-  width: 675px;
+  width: 80vw;
   margin: 0 auto;
 }
 
@@ -561,7 +561,7 @@ p.tagline {
   top: 0;
   left: 50%;
   width: 80vw;
-  margin-left: -352px;
+  margin-left: -20vw;
   background: #222;
   border: 5px solid #444;
   color: #fff;
@@ -893,7 +893,7 @@ footer .owner p a {
 }
 
 .markdown-body img {
-  max-width: 100%;
+  max-width: 90vw;
   box-sizing: border-box;
 }
 
