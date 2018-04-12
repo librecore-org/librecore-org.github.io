@@ -557,7 +557,7 @@ p.tagline {
 }
 
 .current-section { /*left: 10%; margin-left: 10vw; space-between; align-content: center;*/margin: 2px auto;
-  display:flex; 
+  display: inline-flex; 
   color: #fff;
   position: fixed; 
   width: 80vw;
