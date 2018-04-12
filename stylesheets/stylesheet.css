@@ -689,7 +689,7 @@ footer .owner {
   color: #d6d6d6;
 }
 
-footer .creds small {
+footer .creds small {display: flex; 
   float: right;
   font-size: 10px;
   text-align: right;
