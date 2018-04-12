@@ -385,7 +385,7 @@ legend {
 }
 
 /**
- * Remove default vertical scrollbar in IE 8/9/10/11.
+ * Удалить вертикальную полосу прокрутки по умолчанию в IE 8/9/10/11.
  */
 
 textarea {
@@ -393,8 +393,9 @@ textarea {
 }
 
 /**
- * Don't inherit the `font-weight` (applied by a rule above).
- * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ * Не наследуйте «font-weight» (применяется по правилу выше).
+ * ПРИМЕЧАНИЕ:
+ * По умолчанию в Chrome и Safari в OS X не может быть безопасно изменено значение по умолчанию.
  */
 
 optgroup {
@@ -405,7 +406,7 @@ optgroup {
    ========================================================================== */
 
 /**
- * Remove most spacing between table cells.
+ * Удалите наибольшее расстояние между ячейками таблицы.
  */
 
 table {
@@ -533,10 +534,10 @@ p.tagline {
 }
 
 .download-bar .avatar {
-  border: 1px solid black;
   display: block;
   padding: 4px;
-  float: left;
+  float: left; 
+  border: 1px solid black;
 }
 
 .download-bar .avatar img {
@@ -544,19 +545,19 @@ p.tagline {
 }
 
 .download-bar a.code {
-  background: transparent url(../images/code.png) no-repeat 0 2px;
+  display: block;
   padding-left: 35px;
   margin-top: 8px;
-  display: block;
   float: left;
   text-indent: 0;
   width: auto;
   height: auto;
   opacity: 1;
   filter:alpha(opacity=100);  /* IE 5-7 */
+  background: transparent url(../images/code.png) no-repeat 0 2px;
 }
 
-.current-section { /*left: 10%; margin-left: 10vw; space-between; */margin: 2px auto;
+.current-section { /*left: 10%; margin-left: 10vw; space-between; margin: 2px auto;*/
   display: flex; 
   color: #fff;
   position: fixed; 
