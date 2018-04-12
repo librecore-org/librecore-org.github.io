@@ -556,8 +556,8 @@ p.tagline {
   filter:alpha(opacity=100);  /* IE 5-7 */
 }
 
-.current-section { /*left: 10%; margin-left: 10vw; space-between; align-content: center;*/margin: 2px auto;
-  display: flex; 
+.current-section { /*display: flex; left: 10%; margin-left: 10vw; space-between; align-content: center;*/margin: 2px auto;
+  
   color: #fff;
   position: fixed; 
   width: 80vw;
