@@ -420,7 +420,7 @@ th {
 }
 
 
-/* Стиль */
+/* Стили */
 
 body {
   font-size: 15px;
@@ -447,7 +447,84 @@ h1.title {
   text-align: center;
 }
 
-.wrapper {width: 80vw; margin: 0 auto;}
+.wrapper {width: 90%; margin: 0 auto;}
+header {position: relative; z-index:20; background: linear-gradient(#becccc,#929297 );}
+nav {z-index: 1; 
+  display: flex; 
+  position: fixed; 
+  margin: 2px 2%;
+  padding: 5px;
+  justify-content: space-around; 
+  width:inherit;
+  max-width:80%;/*inline-block; #999;*/
+  text-align: center; 
+  background: rgba(200, 200, 200, .5); 
+} /* background-color: #049844; float:middle ;*/
+nav > ul { 
+  display: inline-block;
+  z-index: 2; 
+  width: auto;
+  margin: 0; 
+  padding: 0 5px;
+  list-style: none;
+  border-radius: 5px; 
+  background: linear-gradient(#aaa, #222);
+}
+nav > ul > li {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  position: relative;
+  font-size: 14px;
+  color: rgba(100, 100, 100, .6);
+  cursor: pointer; 
+  background: linear-gradient(#aaa, #222);
+}
+nav > ul > li a {color:#ddd;
+  display:inline-block;
+  padding: 0 6px; 
+  min-width: 140px;
+  max-width: 160px;
+  text-decoration: none; 
+}
+nav>ul>li:focus {
+  background: linear-gradient(#aaa, #222); 
+  border-radius: 5px 5px 0 0;} /* */
+
+nav>ul>li:active {background: linear-gradient(#222, #ccc);} /*hover*/ 
+
+.menus {/*  absolute; */  
+  top: inherit; 
+  left:inherit;
+  min-width: inherit; 
+  text-align: left; 
+  padding: 0;
+  position:fixed; 
+  justify-content: space-around;
+}
+.menus li {
+  display: none;
+  color: rgba(138, 238, 238, 0.2);
+  border-top: 0;
+  background: #246;
+} /* border: 1px solid rgba(242, 241, 239, .5); */
+.menus>li:hover {background: linear-gradient(#222, #666, #222); }
+.menus>li:active {background: linear-gradient(#ccc, #222, #ccc);}
+.menus li:first-child {border-top: 1px solid rgba(242, 241, 239, .5);}
+.menus li:last-child {border-radius: 0 0 5px 5px;}
+/* .menus li a:last-child {border-radius: 0 0 5px 5px;}  */
+li:hover>.menus li, .menu li{display: flex; }
+li:hover>.menus li:nth-child(1) {animation: menu 200ms ease-in-out forwards;}
+li:hover>.menus li:nth-child(2) {animation: menu 300ms ease-in-out forwards;}
+li:hover>.menus li:nth-child(3) {animation: menu 400ms ease-in-out forwards;}
+li:hover>.menus li:nth-child(4) {animation: menu 500ms ease-in-out forwards;}
+li:hover>.menus li:nth-child(5) {animation: menu 600ms ease-in-out forwards;}
+
+@keyframes menu {
+  0% {opacity: 0; transform: rotateY(90deg) translateY(100px);}
+  100% {opacity: 1; transform: rotateY(0deg) translateY(0px); }
+}
+
 
 #container {
   border: 1px solid #2a2a2a;
