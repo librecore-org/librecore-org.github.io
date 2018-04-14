@@ -456,10 +456,10 @@ nav {z-index: 1;
   padding: 5px;
   justify-content: space-around; 
   width:inherit;
-  max-width:80%;/*inline-block; #999;*/
+  max-width:80%; 
   text-align: center; 
   background: rgba(200, 200, 200, .5); 
-} /* background-color: #049844; float:middle ;*/
+} 
 nav > ul { 
   display: inline-block;
   z-index: 2; 
