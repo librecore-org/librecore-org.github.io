@@ -1,7 +1,7 @@
 (function($) {
 $(document).ready(function(){
 
-  // putting lines by the pre blocks
+  // размещение строк предварительными блоками
   $("pre").each(function(){
     var pre = $(this).text().split("\n");
     var lines = new Array(pre.length+1);
