@@ -1,5 +1,5 @@
 /*
-Project: LiveInternet - Global effects functions
+Project: LiveInternet - Функции глобальных эффектов
 Author:   A.Timofeev / Re.Active (www.reactant.ru)
 Version:  8 May 2008
 В основном разные эффекты и не системные функции (для неавторизованных можно безболезненно отключить)
